@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Base de datos local
+*.db
+*.sqlite3
+
+# Variables de entorno (nunca se suben)
+.env
+.env.local
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Registros
+*.log
