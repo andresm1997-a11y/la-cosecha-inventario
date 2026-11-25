@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-ink antialiased;
+  }
+}
+
+@layer components {
+  .campo {
+    @apply w-full rounded-lg border border-linea bg-white px-3 py-2 text-sm outline-none transition focus:border-verde focus:ring-2 focus:ring-verde/20;
+  }
+
+  .etiqueta {
+    @apply mb-1 block text-[11px] font-semibold uppercase tracking-wide text-neutral-500;
+  }
+
+  .boton {
+    @apply inline-flex items-center justify-center rounded-lg bg-verde px-4 py-2 text-sm font-semibold text-white transition hover:bg-verde-profundo disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .boton-secundario {
+    @apply inline-flex items-center justify-center rounded-lg border border-linea bg-white px-4 py-2 text-sm font-semibold text-ink transition hover:border-verde hover:text-verde;
+  }
+
+  .tarjeta {
+    @apply rounded-xl border border-linea bg-white;
+  }
+}
