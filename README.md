@@ -8,9 +8,12 @@ WhatsApp, y esas tres fuentes casi nunca coinciden.
 Este repositorio es el proyecto integrador del curso **Web y sistemas móviles**
 (Momento evaluativo #3) de la Universidad Cooperativa de Colombia.
 
-- Frontend desplegado: _[completar al desplegar]_
-- Backend desplegado: _[completar al desplegar]_
-- Documentación de la API: _[completar al desplegar]_/docs
+- **Aplicación:** https://la-cosecha-inventario.vercel.app
+- **API:** https://inventario-api-aixi.onrender.com
+- **Documentación de la API:** https://inventario-api-aixi.onrender.com/docs
+
+> Los servicios gratuitos se suspenden por inactividad: la primera petición
+> puede tardar hasta un minuto en responder.
 
 ## Qué hace
 
